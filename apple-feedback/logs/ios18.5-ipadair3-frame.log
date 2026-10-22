@@ -1,0 +1,57 @@
+iOS 18.5
+t0 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 ⏎둘째 줄입니다⏎셋째 줄입니다
+t16 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 ⏎둘째 줄입니다⏎셋째 줄입니다
+t100 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 ⏎둘째 줄입니다⏎셋째 줄입니다
+t300 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 ⏎둘째 줄입니다⏎셋째 줄입니다
+t0 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 ㅎ⏎둘째 줄입니다⏎셋째 줄입니다
+t16 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 ㅎ⏎둘째 줄입니다⏎셋째 줄입니다
+t100 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 ㅎ⏎둘째 줄입니다⏎셋째 줄입니다
+t300 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 ㅎ⏎둘째 줄입니다⏎셋째 줄입니다
+t0 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 하⏎둘째 줄입니다⏎셋째 줄입니다
+t16 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 하⏎둘째 줄입니다⏎셋째 줄입니다
+t100 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 하⏎둘째 줄입니다⏎셋째 줄입니다
+t300 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 하⏎둘째 줄입니다⏎셋째 줄입니다
+t0 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한⏎둘째 줄입니다⏎셋째 줄입니다
+t16 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한⏎둘째 줄입니다⏎셋째 줄입니다
+t100 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한⏎둘째 줄입니다⏎셋째 줄입니다
+t300 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한⏎둘째 줄입니다⏎셋째 줄입니다
+t0 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한ㄱ⏎둘째 줄입니다⏎셋째 줄입니다
+t16 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한ㄱ⏎둘째 줄입니다⏎셋째 줄입니다
+t100 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한ㄱ⏎둘째 줄입니다⏎셋째 줄입니다
+t300 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한ㄱ⏎둘째 줄입니다⏎셋째 줄입니다
+t0 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한그⏎둘째 줄입니다⏎셋째 줄입니다
+t16 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한그⏎둘째 줄입니다⏎셋째 줄입니다
+t100 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한그⏎둘째 줄입니다⏎셋째 줄입니다
+t300 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한그⏎둘째 줄입니다⏎셋째 줄입니다
+t0 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글⏎둘째 줄입니다⏎셋째 줄입니다
+t16 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글⏎둘째 줄입니다⏎셋째 줄입니다
+t100 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글⏎둘째 줄입니다⏎셋째 줄입니다
+t300 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글⏎둘째 줄입니다⏎셋째 줄입니다
+t0 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 ⏎둘째 줄입니다⏎셋째 줄입니다
+t16 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 ⏎둘째 줄입니다⏎셋째 줄입니다
+t100 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 ⏎둘째 줄입니다⏎셋째 줄입니다
+t300 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 ⏎둘째 줄입니다⏎셋째 줄입니다
+t0 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 ㅇ⏎둘째 줄입니다⏎셋째 줄입니다
+t16 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 ㅇ⏎둘째 줄입니다⏎셋째 줄입니다
+t100 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 ㅇ⏎둘째 줄입니다⏎셋째 줄입니다
+t300 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 ㅇ⏎둘째 줄입니다⏎셋째 줄입니다
+t0 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 이⏎둘째 줄입니다⏎셋째 줄입니다
+t16 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 이⏎둘째 줄입니다⏎셋째 줄입니다
+t100 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 이⏎둘째 줄입니다⏎셋째 줄입니다
+t300 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 이⏎둘째 줄입니다⏎셋째 줄입니다
+t0 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 입⏎둘째 줄입니다⏎셋째 줄입니다
+t16 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 입⏎둘째 줄입니다⏎셋째 줄입니다
+t100 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 입⏎둘째 줄입니다⏎셋째 줄입니다
+t300 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 입⏎둘째 줄입니다⏎셋째 줄입니다
+t0 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 입ㄹ⏎둘째 줄입니다⏎셋째 줄입니다
+t16 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 입ㄹ⏎둘째 줄입니다⏎셋째 줄입니다
+t100 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 입ㄹ⏎둘째 줄입니다⏎셋째 줄입니다
+t300 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 입ㄹ⏎둘째 줄입니다⏎셋째 줄입니다
+t0 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 입려⏎둘째 줄입니다⏎셋째 줄입니다
+t16 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 입려⏎둘째 줄입니다⏎셋째 줄입니다
+t100 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 입려⏎둘째 줄입니다⏎셋째 줄입니다
+t300 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 입려⏎둘째 줄입니다⏎셋째 줄입니다
+t0 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 입력⏎둘째 줄입니다⏎셋째 줄입니다
+t16 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 입력⏎둘째 줄입니다⏎셋째 줄입니다
+t100 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 입력⏎둘째 줄입니다⏎셋째 줄입니다
+t300 id=input-frame y=0.0 h=20.3 ok text=첫째 줄 한글 입력⏎둘째 줄입니다⏎셋째 줄입니다
