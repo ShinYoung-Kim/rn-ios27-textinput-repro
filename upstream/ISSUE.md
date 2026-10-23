@@ -1,10 +1,10 @@
 # Title
 
-[iOS] Multiline TextInput with scrollEnabled={false} shifts its text down one line while typing Korean on iOS 27
+[iOS] Multiline TextInput with scrollEnabled={false} shifts its text down while typing Korean on iOS 27
 
 # Description
 
-On iOS 27.0.1, in a multiline `TextInput` with `scrollEnabled={false}` that already contains more than one paragraph, typing Korean inside the first paragraph draws the whole text one line lower than it should be. It stays shifted until the next keystroke that only inserts a character, so while typing the text keeps jumping down and back up.
+On iOS 27.0.1, in a multiline `TextInput` with `scrollEnabled={false}` that already contains more than one paragraph, typing Korean inside the first paragraph draws the whole text lower than it should be, by the height of the first paragraph. In the reproducer the first paragraph is a single line, so the text moves down by one line. It stays shifted until the next keystroke that only inserts a character, so while typing the text keeps jumping down and back up.
 
 This comes from TextKit 2. After an edit that replaces text inside the first paragraph, which is what the Korean keyboard does on every syllable recomposition (하 → 한), `NSTextLayoutManager` places the first `NSTextLayoutFragment` at `origin.y` equal to its own height instead of 0. I reported it to Apple as FB25281535.
 
@@ -29,7 +29,7 @@ I have a fix ready and will open a PR: re-lay out only the first fragment when i
 1. Run the reproducer on an iOS 27 device with the Korean (Standard) keyboard added.
 2. Tap the top input (`multiline`, `scrollEnabled={false}`, initial value `첫째 줄\n둘째 줄입니다\n셋째 줄입니다`). The caret goes to the end of the first line.
 3. Type ㅎ, then ㅏ.
-4. All three lines move down by one line. Type ㄴ (→ 한): still shifted. Type ㄱ: back in place. Type ㅡ: shifted again.
+4. All three lines move down by the height of the first line. Type ㄴ (→ 한): still shifted. Type ㄱ: back in place. Type ㅡ: shifted again.
 
 Expected: the first line stays at the top of the input, as on iOS 26 and earlier.
 

@@ -7,7 +7,7 @@ const FIRST_PARAGRAPH_END = INITIAL_TEXT.indexOf('\n');
 
 /**
  * Multiline TextInput with later paragraphs. Focus puts the caret at the end of the first paragraph,
- * then typing Korean there (e.g. ㅎ ㅏ ㄴ → 한) shifts the whole text down by one line on iOS 27.
+ * then typing Korean there (e.g. ㅎ ㅏ ㄴ → 한) shifts the whole text down by the height of the first paragraph on iOS 27.
  */
 function PrefilledInput({ testID, scrollEnabled }: { testID: string; scrollEnabled: boolean }) {
   const [text, setText] = useState(INITIAL_TEXT);

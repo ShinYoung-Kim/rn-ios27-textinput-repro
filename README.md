@@ -1,8 +1,8 @@
-# iOS 27: multiline TextInput text shifts down one line while typing Korean
+# iOS 27: multiline TextInput text shifts down while typing Korean
 
 Reproducer for a React Native 0.88.0 (New Architecture) bug on iOS 27.0.1.
 
-In a `<TextInput multiline scrollEnabled={false}>` that already has more than one paragraph, typing Korean inside the first paragraph moves the whole text down by one line. It stays there until the next keystroke that only inserts a character, so while typing the text keeps jumping down and back.
+In a `<TextInput multiline scrollEnabled={false}>` that already has more than one paragraph, typing Korean inside the first paragraph moves the whole text down by the height of the first paragraph. In this reproducer the first paragraph is a single line, so the text moves down by one line. It stays there until the next keystroke that only inserts a character, so while typing the text keeps jumping down and back.
 
 The cause is in TextKit 2 (Apple FB25281535): after an edit that replaces text inside the first paragraph, `NSTextLayoutManager` places the first layout fragment at `y = its own height` instead of `0`. UIKit apps that size `UITextView` with Auto Layout never show it, because Auto Layout re-measures the view and that lays the fragment out again. React Native sizes views with frames, so nothing does.
 
@@ -16,7 +16,7 @@ npx react-native run-ios --device   # iOS 27 device; set your team in Xcode firs
 
 1. Add the Korean (Standard) keyboard on the device.
 2. Tap the top input. The caret goes to the end of `첫째 줄`.
-3. Type ㅎ then ㅏ (so ㅎ becomes 하). The three lines move down by one line.
+3. Type ㅎ then ㅏ (so ㅎ becomes 하). The three lines move down by the height of the first line.
 
 The bottom input has `scrollEnabled` on and does not move.
 

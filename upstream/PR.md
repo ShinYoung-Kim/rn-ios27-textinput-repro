@@ -6,7 +6,7 @@ fix(ios): re-lay out a misplaced first text fragment in RCTUITextView on iOS 27
 
 Fixes #<issue number>.
 
-On iOS 27, TextKit 2 can leave the first layout fragment of a `UITextView` one line low after an edit that replaces text inside the first paragraph while later paragraphs exist. The Korean keyboard does this on every syllable recomposition, so in a multiline `TextInput` with `scrollEnabled={false}` the whole text jumps down by one line while typing. Reported to Apple as FB25281535.
+On iOS 27, TextKit 2 can leave the first layout fragment of a `UITextView` pushed down by its own height after an edit that replaces text inside the first paragraph while later paragraphs exist. The Korean keyboard does this on every syllable recomposition, so in a multiline `TextInput` with `scrollEnabled={false}` the whole text jumps down by the height of the first paragraph while typing. Reported to Apple as FB25281535.
 
 UIKit hides this when the text view is sized with Auto Layout, because re-measuring through `intrinsicContentSize` lays the fragment out again. `RCTUITextView` is sized with frames, so nothing does that and the text stays shifted until the next edit. A frame-sized `UITextView` in a plain UIKit app behaves the same way.
 
@@ -17,7 +17,7 @@ This change checks the first layout fragment after each text change, and when it
 
 ## Changelog:
 
-[IOS] [FIXED] - Fix multiline TextInput text shifting down one line while typing Korean on iOS 27
+[IOS] [FIXED] - Fix multiline TextInput text shifting down while typing Korean on iOS 27
 
 ## Test Plan:
 
